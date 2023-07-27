@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="EditTodoForm"
+  >
+    <label
+      for="editTask"
+    >
+      Task:
+    </label>
+    <input
+      id="editTask"
+      name="edit"
+      value=""
+    />
+    <input
+      type="submit"
+      value="edit"
+    />
+    <button
+      type="button"
+    >
+      Cancel
+    </button>
+  </form>
+</DocumentFragment>
+`;

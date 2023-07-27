@@ -1,11 +1,11 @@
 import { render } from "@testing-library/react";
-import App from "./App";
+import Todo from "./Todo";
 
-test("renders", () => {
-  render(<App />);
+it("should <renders without crash", () => {
+  render(<Todo />);
 });
 
 it("should match snapshot", () => {
-  const { asFragment } = render(<App />);
+  const { asFragment } = render(<Todo />);
   expect(asFragment()).toMatchSnapshot();
 });

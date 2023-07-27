@@ -1,0 +1,8 @@
+.NewTodoForm form input {
+    outline: none;
+}
+
+.error {
+    border: red 1px solid;
+    box-sizing: border-box;
+}
